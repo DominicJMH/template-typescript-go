@@ -1,8 +1,7 @@
-uilds:
+builds:
   include:
   - '*.x86_64-linux.*'
   - darwinCongurations.*
-  - nixosConfigurations
 servers:
   - configuration: server
     deployment:
