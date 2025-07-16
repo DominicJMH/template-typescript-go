@@ -3,7 +3,7 @@
 let
   # TODO: add your public ssh key here to be able to log into the deployed host (as user `me`).
   sshKeys = [
-    "ssh-rsa <YOUR_PUBLIC_SSH_KEY>"
+    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICyJ0zy84dNAnoev2w1X1oxr3X4xVX1HIqfOMDtsN6/y dominic.mills@tii.ae"
   ];
   backendPort = "3000";
 in
