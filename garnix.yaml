@@ -1,7 +1,12 @@
+uilds:
+  include:
+  - '*.x86_64-linux.*'
+  - darwinCongurations.*
+  - nixosConfigurations
 servers:
   - configuration: server
     deployment:
-      type: on-pull-request
+      type: on-branch
   - configuration: server
     deployment:
       type: on-branch
