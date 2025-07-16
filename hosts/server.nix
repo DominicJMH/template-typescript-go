@@ -17,7 +17,7 @@ in
   services.openssh.enable = true;
   #   - Then we create a user called "me". You can change it if you like; just
   #     remember to use that user when ssh'ing into the machine.
-  users.users.me = {
+  users.users.dominic = {
     # This lets NixOS know this is a "real" user rather than a system user,
     # giving you for example a home directory.
     isNormalUser = true;
